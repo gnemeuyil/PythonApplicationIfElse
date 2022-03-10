@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>aff8634d-4b09-4973-b544-8974941bf03f</ProjectGuid>
+    <ProjectGuid>d47ab733-224a-4fda-ae18-f67dff5feea8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplicationIfElse.py</StartupFile>
+    <StartupFile>OldEnough.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplicationIfElse</Name>
-    <RootNamespace>PythonApplicationIfElse</RootNamespace>
+    <Name>OldEnough</Name>
+    <RootNamespace>OldEnough</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,10 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="WhatToWear.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PythonApplicationIfElse.py" />
+    <Compile Include="OldEnough.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
